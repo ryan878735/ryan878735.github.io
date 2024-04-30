@@ -3,20 +3,20 @@
     line-height: 1.5em;
 }
 .bg-primary{
-    background-color: #4a67ea !important;
+    background-color: #e47a7a !important;
     background-image: url(../assets/img/photo.jpg);
     background-size: cover;
     background-position: center;
 }
 p.redred{
-    color: #A30000;
+    color: #1a4bb4;
     background-image: url(/assets/img/background.png);
     border: 30px solid;
-    border-color: #004777;
+    border-color: #3d6427;
     font-size: 40px;
     text-align: center;
     text-indent: 2em;
-    background-color: azure;
+    background-color: rgb(164, 152, 230);
 }
 .blueblue{
     color: #004777;
@@ -94,8 +94,8 @@ h1{
     color: #E3B505;
 }
 .ulpor li a:hover{
-    color: white;
-    background-color:#E3B505;
+    color: rgb(108, 50, 141);
+    background-color:#3d6fcc;
     border-radius: 5px;
     padding: 5px;
 }
@@ -114,11 +114,7 @@ h1{
 .pl-5{
     padding-left: 0.5rem;
 }
-#about{
-    border-radius: 0 0 480% 480% ;
-    background-color: hsl(48, 96%, 45%,10%);
-    margin-bottom: 2em;
-}
+
 @media (max-width: 900px) {
     #about{
         border-radius: 0 0 40% 40% ;
@@ -128,15 +124,18 @@ h1{
 }
 .cwk2{
     text-decoration: none;
-    color: #E3B505;
+    color: #c07621;
     line-height: 3em;
 }
 .cwk2:hover{
-    background-color: #E3B505;
-    color: white;
+    background-color: #284e49;
+    color: rgb(225, 241, 245);
     padding: 5px;
     border-radius: 10px;
 }
 ol.ryanlist{
     list-style-type:upper-roman；
+}
+ul.ryanlist{
+    list-style-type:square；
 }
